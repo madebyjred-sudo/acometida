@@ -1,0 +1,65 @@
+/* Scene 2 · the line. Frame and terminal from marco.css; here the drawing the
+   run prints: pole, cable, technician, house, all in the terminal's own
+   characters. The cable is the one blue mark; it pays out by width while
+   the technician walks with it, on one clock, so the tip stays in his hand. */
+
+.lin .lin-dibujo {
+  position: relative;
+  font-size: 12px;
+  line-height: 13px;
+}
+
+.lin .lin-dibujo pre {
+  margin: 0;
+  font: inherit;
+  white-space: pre;
+}
+
+.lin .lin-base {
+  padding: 8px 0 10px 2.5ch;
+  color: var(--ss-term-path);
+}
+
+.lin .lin-cable {
+  position: absolute;
+  top: 21px;
+  left: 9.5ch;
+  overflow: hidden;
+  color: var(--azul-luz);
+  white-space: pre;
+  transition: width 2.4s linear;
+}
+
+.lin .lin-tecnico {
+  position: absolute;
+  top: 34px;
+  margin-left: 2.5ch;
+  color: #ececee;
+  transition: left 2.4s linear;
+}
+
+.lin .lin-ventana {
+  color: var(--ss-term-path);
+  transition: color 0.3s ease;
+}
+
+.lin .lin-ventana[data-on] {
+  color: var(--azul-luz);
+}
+
+.lin .term-line[data-k='out'] .term-a {
+  color: var(--verde);
+}
+
+.lin .ss-stage[data-layout='compact'] .lin-dibujo {
+  font-size: 11px;
+  line-height: 12px;
+}
+
+.lin .ss-stage[data-layout='compact'] .lin-cable {
+  top: 20px;
+}
+
+.lin .ss-stage[data-layout='compact'] .lin-tecnico {
+  top: 32px;
+}

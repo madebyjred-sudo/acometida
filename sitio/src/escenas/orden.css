@@ -1,0 +1,58 @@
+/* Scene 1 · the work order. Frame and terminal from marco.css; here only the
+   order, a ticket with the blue stripe of a work order across its top. */
+
+.ord .ord-card {
+  top: 262px;
+  left: 364px;
+  width: 146px;
+  padding: 18px 16px 16px;
+  overflow: hidden;
+}
+
+.ord .ord-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 4px;
+  background: var(--azul);
+}
+
+.ord .ord-card__dia {
+  color: #6e6e73;
+  font-weight: 400;
+}
+
+.ord .ord-card__fuente {
+  margin-top: 8px;
+  font-size: 38px;
+  font-weight: 650;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--tinta);
+}
+
+.ord .ss-stage[data-layout='compact'] .ord-card {
+  top: auto;
+  bottom: 28px;
+  left: auto;
+  right: 20px;
+  width: 124px;
+  padding: 15px 12px 13px;
+}
+
+.ord .ss-stage[data-layout='compact'] .ord-card .sat-head {
+  gap: 6px;
+  font-size: 12px;
+}
+
+.ord .ss-stage[data-layout='compact'] .ord-card__fuente {
+  margin-top: 6px;
+  font-size: 32px;
+}
+
+.ord .ss-stage[data-layout='compact'] .ord-card .sat-foot {
+  margin-top: 6px;
+  font-size: 11.5px;
+}

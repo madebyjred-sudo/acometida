@@ -1,0 +1,9 @@
+{
+  "name": "acometida",
+  "version": "0.1.0",
+  "description": "Turns any online source into a connector your chat queries and cites with the real date of the data: probes the link, keeps a local copy fresh, measures it and serves it over MCP.",
+  "author": { "name": "madebyjred", "url": "https://github.com/madebyjred-sudo" },
+  "repository": "https://github.com/madebyjred-sudo/acometida",
+  "license": "MIT",
+  "keywords": ["connector", "mcp", "scraping", "open-data", "freshness", "citations", "rag"]
+}

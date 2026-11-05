@@ -1,0 +1,153 @@
+/* Scene 5 · the bill. A plain light window, the bill as its page: the rows
+   on the left, the stamp landing on the right; in compact the stamp drops
+   beside the total. The stamp is in the page's royal blue and lands the way a rubber stamp does: a little large, then down. */
+
+.fac .fac-papel {
+  position: relative;
+  height: 100%;
+  padding: 26px 28px 0;
+  background: var(--ss-surface);
+  font-family: 'Figtree Variable', system-ui, sans-serif;
+  color: var(--ss-text-strong);
+  transition: opacity 0.3s ease;
+}
+
+.fac .fac-papel[data-dip] {
+  opacity: 0.18;
+  transition-duration: 0.28s;
+}
+
+.fac .fac-mes {
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--azul);
+  font-size: 18px;
+  font-weight: 650;
+  line-height: 24px;
+  width: 300px;
+}
+
+.fac .fac-filas {
+  width: 300px;
+  padding-top: 10px;
+}
+
+.fac .fac-fila,
+.fac .fac-total {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 11px 0;
+  border-bottom: 1px solid var(--ss-line);
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.fac .fac-valor {
+  flex: none;
+  color: var(--ss-text);
+  font-variant-numeric: tabular-nums;
+}
+
+/* The counts read like the big prices on a market bill. */
+.fac .fac-fila .fac-valor {
+  font-size: 20px;
+  font-stretch: condensed;
+  font-weight: 750;
+  letter-spacing: -0.035em;
+  line-height: 26px;
+}
+
+.fac .fac-valor--lecturas {
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+}
+
+.fac .fac-cuenta {
+  color: var(--azul);
+  font-size: 36px;
+  font-weight: 850;
+  line-height: 1;
+}
+
+.fac .fac-unidad {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.fac .fac-fila[data-primera] .fac-valor {
+  color: var(--ss-text-strong);
+  font-weight: 650;
+}
+
+.fac .fac-total {
+  width: 300px;
+  border-bottom: 0;
+  font-weight: 600;
+}
+
+.fac .fac-sello {
+  position: absolute;
+  top: 84px;
+  left: 338px;
+  color: var(--azul);
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 10px;
+  opacity: 0;
+  transform: rotate(-10deg) scale(1.25);
+  transition: opacity 0.18s ease, transform 0.32s cubic-bezier(0.3, 1.4, 0.5, 1);
+}
+
+.fac .fac-sello[data-on] {
+  opacity: 1;
+  transform: rotate(-10deg) scale(1);
+}
+
+/* ---- Compact ---- */
+
+.fac .ss-stage[data-layout='compact'] .fac-papel {
+  padding: 18px 20px 0;
+}
+
+.fac .ss-stage[data-layout='compact'] .fac-mes,
+.fac .ss-stage[data-layout='compact'] .fac-filas {
+  width: 340px;
+}
+
+.fac .ss-stage[data-layout='compact'] .fac-mes {
+  padding-bottom: 8px;
+  font-size: 16px;
+}
+
+.fac .ss-stage[data-layout='compact'] .fac-fila {
+  padding: 7px 0;
+}
+
+.fac .ss-stage[data-layout='compact'] .fac-fila .fac-valor {
+  font-size: 17px;
+  line-height: 22px;
+}
+
+.fac .ss-stage[data-layout='compact'] .fac-cuenta {
+  font-size: 30px;
+}
+
+/* Compact leaves out the exit through another country */
+.fac .ss-stage[data-layout='compact'] .fac-fila[data-fuera] {
+  display: none;
+}
+
+.fac .ss-stage[data-layout='compact'] .fac-total {
+  width: 180px;
+  padding-top: 14px;
+}
+
+.fac .ss-stage[data-layout='compact'] .fac-sello {
+  top: 182px;
+  left: 222px;
+  font-size: 6.5px;
+  line-height: 7.2px;
+}

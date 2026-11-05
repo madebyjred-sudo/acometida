@@ -1,0 +1,12 @@
+{
+  "name": "madebyjred",
+  "owner": { "name": "madebyjred", "url": "https://github.com/madebyjred-sudo" },
+  "metadata": { "description": "Skills by madebyjred, built from tools that run in production." },
+  "plugins": [
+    {
+      "name": "acometida",
+      "source": "./",
+      "description": "Turns any online source into a connector your chat queries and cites with the real date of the data."
+    }
+  ]
+}

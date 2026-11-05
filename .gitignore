@@ -1,0 +1,12 @@
+node_modules/
+*.db
+*.db-wal
+*.db-shm
+crudo/
+.env
+.env.*
+sitio/node_modules/
+sitio/dist/
+.cache/
+shots/
+/acometida-sitio

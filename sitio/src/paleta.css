@@ -1,0 +1,37 @@
+/* The page's palette, from Pantone. Grey is the structure (Sightline's base);
+   royal blue is the accent, the second ink of every print-shop flyer: the
+   period of the wordmark, the highlight, the links, the marks in the scenes.
+   Red is the flyer's other ink and stays in the flyer: the name of the
+   service and the phones. Safety orange appears once, on the technician's
+   hard hat.
+
+   Bright White   PANTONE 11-0601 TCX    #f4f5f0   the ground
+   Grafito        PANTONE Cool Gray 11 C #53565a   dark grounds
+   Gris claro     PANTONE Cool Gray 1 C  #d9d9d6   light grounds of the scenes
+   Azul rey       PANTONE Reflex Blue C  #001489   the accent: 13.1:1 on blanco, 14.4:1 on white
+   Rojo           PANTONE 485 C          #da291c   the flyer only: 4.9:1 on white
+   Naranja        PANTONE 151 C          #ff8200   the hard hat, nothing else */
+
+:root {
+  --blanco: #f4f5f0;
+  --grafito: #53565a;
+  --gris-claro: #d9d9d6;
+  --azul: #001489;
+  --rojo: #da291c;
+  --naranja: #ff8200;
+
+  /* Derived, same families, each pair measured for contrast */
+  --tinta: #232426; /* 14.2:1 on blanco */
+  --gris: #5f6266; /* secondary text: 5.6:1 on blanco, 4.9:1 on blanco-hondo */
+  --blanco-hondo: #e6e7e3;
+  --papel: #ffffff; /* the flyer */
+  --azul-velo: #dde2f5; /* highlight behind text: tinta 12:1, azul 11.1:1 */
+  --azul-luz: #8a9af2; /* the accent on dark grounds: 6.2:1 on the terminal */
+  --terminal: #1f2022;
+  --sombra: 30, 31, 33;
+
+  /* The status the product prints, on the dark terminal only */
+  --verde: #6fcf7f;
+  --amarillo-estado: #f2c94c;
+  --rojo-estado: #ff6b5e;
+}

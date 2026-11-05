@@ -1,0 +1,190 @@
+{
+  "fuente": "boe",
+  "leido": "a mano el 4-nov-2026: cabecera, título y cve de cada PDF, cotejados con el sumario oficial del BOE",
+  "instrucciones": "Cada PDF es una disposición o anuncio del Boletín Oficial del Estado (España). Devuelve un solo registro. titulo: el título oficial tal como lo encabeza el boletín (en los anuncios de la sección IV y V, el encabezado: lugar u organismo). fecha: la fecha de publicación del boletín que figura en la cabecera de la página, no la fecha de la disposición.",
+  "campos": {
+    "identificador": "código de verificación del BOE que figura como «cve:» al pie, forma BOE-A-AAAA-NNNNN o BOE-B-AAAA-NNNNN"
+  },
+  "documentos": [
+    {
+      "archivo": "BOE-A-2026-22959.pdf",
+      "url": "https://www.boe.es/boe/dias/2026/11/02/pdfs/BOE-A-2026-22959.pdf",
+      "esperado": {
+        "identificador": "BOE-A-2026-22959",
+        "fecha": "2026-11-02",
+        "titulo": "Acuerdo de 27 de octubre de 2026, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se publica el Acuerdo de Sala de Gobierno del Tribunal Supremo de 28 de septiembre de 2026, sobre composición y funcionamiento de la Salas y Secciones del Tribunal Supremo y asignación de ponencias para el año judicial 2026."
+      }
+    },
+    {
+      "archivo": "BOE-A-2026-23072.pdf",
+      "url": "https://www.boe.es/boe/dias/2026/11/03/pdfs/BOE-A-2026-23072.pdf",
+      "esperado": {
+        "identificador": "BOE-A-2026-23072",
+        "fecha": "2026-11-03",
+        "titulo": "Resolución de 22 de octubre de 2026, de la Dirección del Departamento de Recursos Humanos de la Agencia Estatal de Administración Tributaria, por la que se emplaza a las personas interesadas en el recurso contencioso-administrativo 173/2026, interpuesto ante el Tribunal Central de Instancia, Sección de lo Contencioso-Administrativo, Plaza n.º 11."
+      }
+    },
+    {
+      "archivo": "BOE-B-2026-35796.pdf",
+      "url": "https://www.boe.es/boe/dias/2026/11/03/pdfs/BOE-B-2026-35796.pdf",
+      "esperado": {
+        "identificador": "BOE-B-2026-35796",
+        "fecha": "2026-11-03",
+        "titulo": "ARENYS MAR"
+      }
+    },
+    {
+      "archivo": "BOE-A-2026-23155.pdf",
+      "url": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-A-2026-23155.pdf",
+      "esperado": {
+        "identificador": "BOE-A-2026-23155",
+        "fecha": "2026-11-04",
+        "titulo": "Resolución de 23 de octubre de 2026, de la Presidencia del Tribunal Constitucional, por la que se determina la composición de la Mesa de Contratación."
+      }
+    },
+    {
+      "archivo": "BOE-A-2026-22901.pdf",
+      "url": "https://www.boe.es/boe/dias/2026/11/02/pdfs/BOE-A-2026-22901.pdf",
+      "esperado": {
+        "identificador": "BOE-A-2026-22901",
+        "fecha": "2026-11-02",
+        "titulo": "Resolución de 21 de octubre de 2026, de la Universidad de Zaragoza, por la que se nombran Profesoras y Profesores Titulares de Universidad."
+      }
+    },
+    {
+      "archivo": "BOE-A-2026-22917.pdf",
+      "url": "https://www.boe.es/boe/dias/2026/11/02/pdfs/BOE-A-2026-22917.pdf",
+      "esperado": {
+        "identificador": "BOE-A-2026-22917",
+        "fecha": "2026-11-02",
+        "titulo": "Resolución de 27 de octubre de 2026, de la Dirección General de la Función Pública, por la que se publica la convocatoria para la provisión de puesto de trabajo reservado al personal funcionario de administración local con habilitación de carácter nacional, por el sistema de libre designación."
+      }
+    },
+    {
+      "archivo": "BOE-A-2026-23017.pdf",
+      "url": "https://www.boe.es/boe/dias/2026/11/03/pdfs/BOE-A-2026-23017.pdf",
+      "esperado": {
+        "identificador": "BOE-A-2026-23017",
+        "fecha": "2026-11-03",
+        "titulo": "Resolución de 23 de octubre de 2026, de la Dirección General de Seguridad Jurídica y Fe Pública, por la que se nombra Notario Archivero de Protocolos del Distrito Notarial de Córdoba, a la notaria con residencia en la localidad de Bujalance doña Rosalía Priego Sancho."
+      }
+    },
+    {
+      "archivo": "BOE-A-2026-23034.pdf",
+      "url": "https://www.boe.es/boe/dias/2026/11/03/pdfs/BOE-A-2026-23034.pdf",
+      "esperado": {
+        "identificador": "BOE-A-2026-23034",
+        "fecha": "2026-11-03",
+        "titulo": "Resolución de 29 de octubre de 2026, del Ayuntamiento de Motril (Granada), referente a la convocatoria para proveer puestos de trabajo por el sistema de concurso."
+      }
+    },
+    {
+      "archivo": "BOE-B-2026-35920.pdf",
+      "url": "https://www.boe.es/boe/dias/2026/11/03/pdfs/BOE-B-2026-35920.pdf",
+      "esperado": {
+        "identificador": "BOE-B-2026-35920",
+        "fecha": "2026-11-03",
+        "titulo": "AGENCIA TRIBUTARIA DE CATALUÑA"
+      }
+    },
+    {
+      "archivo": "BOE-A-2026-23106.pdf",
+      "url": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-A-2026-23106.pdf",
+      "esperado": {
+        "identificador": "BOE-A-2026-23106",
+        "fecha": "2026-11-04",
+        "titulo": "Real Decreto 959/2026, de 3 de noviembre, por el que se dispone el cese de doña Ana Paredes Prieto como Embajadora de España en la República de Cabo Verde."
+      }
+    },
+    {
+      "archivo": "BOE-A-2026-23136.pdf",
+      "url": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-A-2026-23136.pdf",
+      "esperado": {
+        "identificador": "BOE-A-2026-23136",
+        "fecha": "2026-11-04",
+        "titulo": "Resolución de 8 de octubre de 2026, de la Dirección de Gestión de Personal, del Departamento de Educación, por la que se publica la convocatoria de concursos de traslados de ámbito estatal correspondiente a cuerpos de funcionarios docentes."
+      }
+    },
+    {
+      "archivo": "BOE-A-2026-22963.pdf",
+      "url": "https://www.boe.es/boe/dias/2026/11/02/pdfs/BOE-A-2026-22963.pdf",
+      "esperado": {
+        "identificador": "BOE-A-2026-22963",
+        "fecha": "2026-11-02",
+        "titulo": "Resolución 420/38442/2026, de 27 de octubre, de la Secretaría General Técnica, por la que se publica la Adenda de prórroga al Convenio con la Fundación Museo Naval, para regular el uso de espacios de la Armada."
+      }
+    },
+    {
+      "archivo": "BOE-A-2026-23075.pdf",
+      "url": "https://www.boe.es/boe/dias/2026/11/03/pdfs/BOE-A-2026-23075.pdf",
+      "esperado": {
+        "identificador": "BOE-A-2026-23075",
+        "fecha": "2026-11-03",
+        "titulo": "Resolución de 21 de octubre de 2026, de la Secretaría General de la Dirección General de Tráfico, por la que se emplaza a las personas interesadas en el recurso contencioso-administrativo 1646/2026, interpuesto ante el Tribunal Superior de Justicia de Madrid, Sala de lo Contencioso-Administrativo, Sección Séptima."
+      }
+    },
+    {
+      "archivo": "BOE-B-2026-35809.pdf",
+      "url": "https://www.boe.es/boe/dias/2026/11/03/pdfs/BOE-B-2026-35809.pdf",
+      "esperado": {
+        "identificador": "BOE-B-2026-35809",
+        "fecha": "2026-11-03",
+        "titulo": "ALGECIRAS"
+      }
+    },
+    {
+      "archivo": "BOE-A-2026-23159.pdf",
+      "url": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-A-2026-23159.pdf",
+      "esperado": {
+        "identificador": "BOE-A-2026-23159",
+        "fecha": "2026-11-04",
+        "titulo": "Resolución de 7 de octubre de 2026, de la Secretaría General de Coordinación Territorial, por la que se publica el Acuerdo de 1 de octubre de 2026, de la Comisión Bilateral de Cooperación Administración General del Estado-Comunidad Autónoma de Extremadura, en relación con el Decreto-ley 4/2026, de 28 de julio, de actuaciones urgentes en materia de urbanismo para la agilización de la aprobación del planeamiento y su ejecución para el impulso a la promoción de vivienda."
+      }
+    },
+    {
+      "archivo": "BOE-B-2026-35926.pdf",
+      "url": "https://www.boe.es/boe/dias/2026/11/03/pdfs/BOE-B-2026-35926.pdf",
+      "esperado": {
+        "identificador": "BOE-B-2026-35926",
+        "fecha": "2026-11-03",
+        "titulo": "AGENCIA TRIBUTARIA CANARIA"
+      }
+    },
+    {
+      "archivo": "BOE-A-2026-23112.pdf",
+      "url": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-A-2026-23112.pdf",
+      "esperado": {
+        "identificador": "BOE-A-2026-23112",
+        "fecha": "2026-11-04",
+        "titulo": "Resolución de 30 de octubre de 2026, de la Presidencia de la Junta Electoral Central, de designación de la Comisión de Radio y Televisión en relación con las elecciones generales a celebrar el 29 de noviembre de 2026."
+      }
+    },
+    {
+      "archivo": "BOE-A-2026-23138.pdf",
+      "url": "https://www.boe.es/boe/dias/2026/11/04/pdfs/BOE-A-2026-23138.pdf",
+      "esperado": {
+        "identificador": "BOE-A-2026-23138",
+        "fecha": "2026-11-04",
+        "titulo": "Resolución de 20 de octubre de 2026, de la Dirección General de Centros y Recursos Humanos, de la Conselleria de Educación, Ciencia, Universidades y Formación Profesional, por la que se publica la convocatoria de concursos de traslados de ámbito estatal correspondiente a cuerpos de funcionarios docentes."
+      }
+    },
+    {
+      "archivo": "BOE-A-2026-22980.pdf",
+      "url": "https://www.boe.es/boe/dias/2026/11/02/pdfs/BOE-A-2026-22980.pdf",
+      "esperado": {
+        "identificador": "BOE-A-2026-22980",
+        "fecha": "2026-11-02",
+        "titulo": "Resolución de 21 de octubre de 2026, de la Autoridad Portuaria de Cartagena, sobre delegación de competencias."
+      }
+    },
+    {
+      "archivo": "BOE-A-2026-23095.pdf",
+      "url": "https://www.boe.es/boe/dias/2026/11/03/pdfs/BOE-A-2026-23095.pdf",
+      "esperado": {
+        "identificador": "BOE-A-2026-23095",
+        "fecha": "2026-11-03",
+        "titulo": "Resolución de 20 de octubre de 2026, de la Real Academia Nacional de Medicina de España, por la que se convoca la provisión de vacante de Académico Numerario en Cirugía Pediátrica."
+      }
+    }
+  ]
+}

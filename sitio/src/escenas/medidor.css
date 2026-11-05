@@ -1,0 +1,139 @@
+/* Scene 3 · the meter. Frame and terminal from marco.css; here the status
+   table and the meter card: the reading is a date, said big. */
+
+.med .med-fila {
+  display: grid;
+  grid-template-columns: 2.5ch 11ch 13ch auto;
+  white-space: pre;
+}
+
+.med .med-nota {
+  display: grid;
+  grid-template-columns: 2.5ch auto;
+  white-space: pre;
+}
+
+.med .med-salida {
+  color: #fff;
+  font-weight: 600;
+}
+
+.med .med-card {
+  top: 150px;
+  left: 340px;
+  width: 170px;
+  padding: 18px 16px 16px;
+  overflow: hidden;
+}
+
+/* The verified reading carries the painted sign's confirmation ribbon. */
+.med .med-confirmado {
+  margin: 0 0 12px;
+  padding: 4px 6px 5px;
+  background: var(--azul);
+  color: #fff;
+  font-size: 9px;
+  font-weight: 800;
+  line-height: 11px;
+  letter-spacing: 0.14em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.med .med-chip {
+  padding: 2px 8px;
+  border-radius: 6px;
+  background: #e3f4e6;
+  color: #1f6b2d;
+  font-size: 11.5px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.med .med-card__dato {
+  margin-top: 12px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6e6e73;
+}
+
+.med .med-card__fecha {
+  display: block;
+  margin-top: 4px;
+  color: var(--tinta);
+  font-weight: 850;
+  letter-spacing: -0.045em;
+  line-height: 0.86;
+  text-transform: uppercase;
+}
+
+/* Condensed, stacked figures, like the date on a painted bill. */
+.med .med-card__fecha > span {
+  display: block;
+  width: 122%;
+  transform: scaleX(0.82);
+  transform-origin: left center;
+}
+
+.med .med-card__dia {
+  font-size: 48px;
+}
+
+.med .med-card__mes {
+  margin-top: 7px;
+  font-size: 30px;
+}
+
+.med .med-card__ano {
+  margin-top: 7px;
+  font-size: 23px;
+  letter-spacing: 0.02em;
+}
+
+.med .med-card .sat-foot {
+  margin-top: 8px;
+}
+
+.med .ss-stage[data-layout='compact'] .med-fila {
+  grid-template-columns: 2.5ch 11ch auto;
+}
+
+.med .ss-stage[data-layout='compact'] .med-card {
+  top: auto;
+  bottom: 28px;
+  left: auto;
+  right: 20px;
+  width: 130px;
+  padding: 15px 12px 13px;
+}
+
+.med .ss-stage[data-layout='compact'] .med-confirmado {
+  margin: 0 0 10px;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.08em;
+}
+
+.med .ss-stage[data-layout='compact'] .med-card .sat-head {
+  gap: 6px;
+  font-size: 12px;
+}
+
+.med .ss-stage[data-layout='compact'] .med-card__dia {
+  font-size: 36px;
+}
+
+.med .ss-stage[data-layout='compact'] .med-card__mes {
+  margin-top: 5px;
+  font-size: 23px;
+}
+
+.med .ss-stage[data-layout='compact'] .med-card__ano {
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.med .ss-stage[data-layout='compact'] .med-card .sat-foot {
+  margin-top: 6px;
+  font-size: 11.5px;
+}

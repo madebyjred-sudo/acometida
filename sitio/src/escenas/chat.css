@@ -1,0 +1,123 @@
+/* Scene 4 · in your chat. Stageshow's ai-chat in the page's frame: the
+   window runs 80px past the stage's bottom, so the composer ends 24px above
+   the visible edge. The answer's origin is the one blue mark. */
+
+.cht .cht-body {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  height: 100%;
+  /* The window runs 130px past the stage's right edge: the content keeps to
+     the visible part, with the window's own 20px inset there too */
+  padding: 16px 150px 104px 20px;
+  background: var(--ss-surface);
+  font-family: 'Figtree Variable', system-ui, sans-serif;
+}
+
+.cht .cht-thread {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 14px;
+  min-height: 0;
+  padding-bottom: 18px;
+  overflow: hidden;
+  transition: opacity 0.3s ease;
+}
+
+.cht .cht-thread[data-dip] {
+  opacity: 0;
+  transition-duration: 0.28s;
+}
+
+.cht .cht-past {
+  display: grid;
+  gap: 8px;
+}
+
+.cht .cht-past-q {
+  justify-self: end;
+}
+
+.cht .cht-q {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cht .cht-q .ss-text {
+  max-width: 78%;
+  padding: 8px 14px;
+  border-radius: 16px;
+  background: var(--ss-ink-1);
+  color: var(--ss-text-strong);
+  font-size: 13.5px;
+  line-height: 1.45;
+  white-space: normal;
+  text-wrap: pretty;
+}
+
+.cht .cht-tool {
+  color: var(--ss-text);
+  font-family: var(--ss-mono);
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.cht .cht-a {
+  display: grid;
+  gap: 12px;
+}
+
+.cht .cht-stream {
+  color: var(--ss-text-strong);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.cht .cht-origen {
+  position: relative;
+  justify-self: start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 8px;
+  align-items: baseline;
+  padding: 7px 12px 7px 17px;
+  border-radius: 8px;
+  background: var(--ss-ink-1);
+  color: var(--ss-text);
+  font-size: 12px;
+  line-height: 17px;
+  opacity: 0;
+  translate: 0 4px;
+  will-change: transform;
+  transition: opacity 0.35s ease, translate 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.cht .cht-origen::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  left: 8px;
+  width: 3px;
+  border-radius: 2px;
+  background: var(--azul);
+}
+
+.cht .cht-origen[data-on] {
+  opacity: 1;
+  translate: 0 0;
+}
+
+.cht .cht-origen__fuente {
+  color: var(--ss-text-strong);
+  font-weight: 600;
+}
+
+.cht .ss-stage[data-layout='compact'] .cht-body {
+  padding: 12px 96px 94px 16px;
+}
+
+.cht .ss-stage[data-layout='compact'] .cht-thread {
+  gap: 10px;
+  padding-bottom: 12px;
+}

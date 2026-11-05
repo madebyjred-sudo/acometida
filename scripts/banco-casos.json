@@ -1,0 +1,137 @@
+[
+  {
+    "fuente": "boe",
+    "pregunta": "¿Qué nombramientos de notarios publicó el BOE el 3 de noviembre de 2026?",
+    "args": {
+      "consulta": "notario",
+      "desde": "2026-11-03",
+      "hasta": "2026-11-03"
+    },
+    "debeContener": "notari"
+  },
+  {
+    "fuente": "boe",
+    "pregunta": "¿Hay resoluciones del BOE sobre procesos selectivos u oposiciones entre el 2 y el 4 de noviembre de 2026?",
+    "args": {
+      "consulta": "proceso selectivo",
+      "desde": "2026-11-02",
+      "hasta": "2026-11-04"
+    }
+  },
+  {
+    "fuente": "boe",
+    "pregunta": "Busca en el BOE el documento BOE-A-2026-23017 y dime qué es.",
+    "args": {
+      "clave": "BOE-A-2026-23017"
+    },
+    "debeContener": "BOE-A-2026-23017|Archivero"
+  },
+  {
+    "fuente": "boe",
+    "pregunta": "¿Qué publicó el BOE sobre subvenciones en octubre de 2026?",
+    "args": {
+      "consulta": "subvenciones",
+      "desde": "2026-10-01",
+      "hasta": "2026-10-31"
+    },
+    "debeContener": "subvenc"
+  },
+  {
+    "fuente": "boe",
+    "pregunta": "¿Publicó el BOE algo sobre la Ley de Costas en marzo de 2024?",
+    "fuera": true,
+    "args": {
+      "consulta": "Costas",
+      "desde": "2024-03-01",
+      "hasta": "2024-03-31"
+    }
+  },
+  {
+    "fuente": "federal_register",
+    "pregunta": "What did the Energy Department publish in the Federal Register on November 3, 2026?",
+    "args": {
+      "consulta": "Energy",
+      "desde": "2026-11-03",
+      "hasta": "2026-11-03"
+    },
+    "debeContener": "Energy"
+  },
+  {
+    "fuente": "federal_register",
+    "pregunta": "¿Hay reglas finales de la EPA en el Federal Register en las últimas semanas?",
+    "args": {
+      "consulta": "Environmental Protection Agency Rule",
+      "desde": "2026-10-05"
+    },
+    "debeContener": "Environmental"
+  },
+  {
+    "fuente": "federal_register",
+    "pregunta": "Find Federal Register document 2026-22355.",
+    "args": {
+      "clave": "2026-22355"
+    },
+    "debeContener": "International Falls"
+  },
+  {
+    "fuente": "federal_register",
+    "pregunta": "¿Qué avisos de la FAA sobre aviación salieron en el Federal Register en octubre de 2026?",
+    "args": {
+      "consulta": "Federal Aviation Administration",
+      "desde": "2026-10-01",
+      "hasta": "2026-10-31"
+    },
+    "debeContener": "Aviation"
+  },
+  {
+    "fuente": "federal_register",
+    "pregunta": "¿Qué publicó el Federal Register sobre criptomonedas en 2019?",
+    "fuera": true,
+    "args": {
+      "consulta": "cryptocurrency",
+      "desde": "2019-01-01",
+      "hasta": "2019-12-31"
+    }
+  },
+  {
+    "fuente": "ley_chile",
+    "pregunta": "¿Cuál es la última ley publicada en Chile según Ley Chile?",
+    "args": {},
+    "debeContener": "Ley"
+  },
+  {
+    "fuente": "ley_chile",
+    "pregunta": "¿Qué leyes publicó Chile en septiembre de 2026?",
+    "args": {
+      "desde": "2026-09-01",
+      "hasta": "2026-09-30"
+    },
+    "debeContener": "2026-09"
+  },
+  {
+    "fuente": "ley_chile",
+    "pregunta": "¿Hay alguna ley chilena reciente sobre el día de la amistad chileno-palestina? ¿Qué número tiene?",
+    "args": {
+      "consulta": "amistad palestina"
+    },
+    "debeContener": "21843"
+  },
+  {
+    "fuente": "ley_chile",
+    "pregunta": "¿Qué leyes chilenas del Ministerio de Educación aparecen en lo cargado?",
+    "args": {
+      "consulta": "Educación"
+    },
+    "debeContener": "EDUCACI"
+  },
+  {
+    "fuente": "ley_chile",
+    "pregunta": "¿Qué ley publicó Chile en 1990 sobre la Corporación Nacional de Reparación?",
+    "fuera": true,
+    "args": {
+      "consulta": "Reparación",
+      "desde": "1990-01-01",
+      "hasta": "1990-12-31"
+    }
+  }
+]
