@@ -1,5 +1,7 @@
 # acometida
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/madebyjred-sudo-acometida-1a8jpq?v=1b97e63ac6b64c76e8b36a6c99bbc665)](https://m8ven.ai/mcp/madebyjred-sudo-acometida-1a8jpq?s=readme)
+
 Cualquier link, una fuente que tu chat consulta y cita con la fecha real del dato.
 
 [Repositorio](https://github.com/madebyjred-sudo/acometida) · [Sitio](https://acometida.madebyjred.com) · [English](https://acometida.madebyjred.com/en/) · MIT
